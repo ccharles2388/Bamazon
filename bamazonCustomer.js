@@ -21,7 +21,7 @@ var connection = mysql.createConnection({
 
 connection.connect(function (err) {
     if (err) throw err;
-    console.log(colors.cyan("Welcome! ...you are now connected to the Bamazon Store database as id " + connection.threadId));
+    console.log(colors.cyan("Welcome! ...you are now connected to the Bamazon Store database as id ( Please Ctl-C To Exit )" + connection.threadId));
     //connection.end();
 
     bamazon();      //Call main function
@@ -36,7 +36,7 @@ function bamazon() {
         // Cli-Table display code with Color
         var table = new Table(
             {
-                head: ["Product ID".cyan.bold, "Product Name".cyan.bold, "Department Name".cyan.bold, "Price".cyan.bold, "Quantity".cyan.bold],
+                head: ["Item ID".cyan.bold, "Product Name".cyan.bold, "Department Name".cyan.bold, "Price".cyan.bold, "Quantity".cyan.bold],
                 colWidths: [12, 75, 20, 12, 12],
             });
 
@@ -49,18 +49,19 @@ function bamazon() {
 
         // console.log(table.toString());
         console.log(table);
+        console.log(Table);
         // END Display Inventory
 
         // Prompt Customers For Input
         inquirer.prompt([
             {
                 type: "number",
-                message: "Please enter the Product ID of the item that you would like to buy?".yellow,
+                message: "Please enter the Item ID of the item that you would like to buy? ( Please Ctl-C To Exit )".yellow,
                 name: "item_id"
             },
             {
                 type: "number",
-                message: "How many would you like to buy?".yellow,
+                message: "How many would you like to buy? ( Please Ctl-C To Exit )".yellow,
                 name: "quantity"
             },
         ])
@@ -74,7 +75,7 @@ function bamazon() {
                 connection.query('SELECT * FROM products WHERE item_id=' + itemID, function (err, selectedItem) {
                     if (err) throw err;
 
-                    // Varify item quantity desired is in inventory
+                    // Verify item quantity desired is in inventory
                     if (selectedItem[0].stock_quantity - quantity >= 0) {
 
                         console.log("INVENTORY AUDIT: Quantity in Stock: ".green + selectedItem[0].stock_quantity + " Order Quantity: ".green + quantity.yellow);
@@ -92,7 +93,7 @@ function bamazon() {
                             function (err, inventory) {
                                 if (err) throw err;
 
-                                bamazon();  // Runs the prompt again, so the customer can continue shopping.
+                                bamazon();  // Runs the inquirer prompt again, so the customer can continue shopping.
                             });  // Ends the code to remove item from inventory.
 
                     }
