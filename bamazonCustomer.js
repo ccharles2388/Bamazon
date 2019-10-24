@@ -3,6 +3,7 @@ var mysql = require('mysql');
 var inquirer = require('inquirer');
 var colors = require('colors');
 var Table = require('cli-table');
+const cTable = require('console.table');
 
 
 // Connection script
@@ -50,7 +51,7 @@ function bamazon() {
         console.log(table);
         // END Display Inventory
 
-        // Prompt Customers Input
+        // Prompt Customers For Input
         inquirer.prompt([
             {
                 type: "number",
