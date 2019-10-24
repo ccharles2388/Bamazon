@@ -1,6 +1,6 @@
 // Required Dependencies
-var mysql = require("mysql");
-var inquirer = require("inquirer");
+var mysql = require('mysql');
+var inquirer = require('inquirer');
 var colors = require('colors');
 var Table = require('cli-table');
 
@@ -42,11 +42,12 @@ function bamazon() {
         // Set/Style table headings and Loop through entire inventory
         for (var i = 0; i < res.length; i++) {
             table.push(
-                [res[i].id, res[i].product_name, res[i].department_name, parseFloat(res[i].price).toFixed(2), res[i].stock_quantity]
+                [res[i].item_id, res[i].product_name, res[i].department_name, parseFloat(res[i].price).toFixed(2), res[i].stock_quantity]
             );
         }
 
-        console.log(table.toString());
+        // console.log(table.toString());
+        console.log(table);
         // END Display Inventory
 
         // Prompt Customers Input
@@ -54,7 +55,7 @@ function bamazon() {
             {
                 type: "number",
                 message: "Please enter the Product ID of the item that you would like to buy?".yellow,
-                name: "id"
+                name: "item_id"
             },
             {
                 type: "number",
@@ -67,9 +68,9 @@ function bamazon() {
             .then(function (cart) {
 
                 var quantity = cart.quantity;
-                var itemID = cart.id;
+                var itemID = cart.item_id;
 
-                connection.query('SELECT * FROM products WHERE id=' + itemID, function (err, selectedItem) {
+                connection.query('SELECT * FROM products WHERE item_id=' + itemID, function (err, selectedItem) {
                     if (err) throw err;
 
                     // Varify item quantity desired is in inventory
@@ -85,7 +86,7 @@ function bamazon() {
                         console.log("Thank You for your purchase. Your order total will be ".green + (cart.quantity * selectedItem[0].price).toFixed(2).yellow + " dollars.".green, "\nThank you for shopping at Bamazon!".magenta);
 
                         // Query to remove the purchased item from inventory.                       
-                        connection.query('UPDATE products SET stock_quantity=? WHERE id=?', [selectedItem[0].stock_quantity - quantity, itemID],
+                        connection.query('UPDATE products SET stock_quantity=? WHERE item_id=?', [selectedItem[0].stock_quantity - quantity, itemID],
 
                             function (err, inventory) {
                                 if (err) throw err;
