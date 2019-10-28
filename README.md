@@ -12,11 +12,11 @@
 
 ### Screenshot of this Project
 
+1. Customer Runs node bamazonCustomer.js App
 ![GitHub Logo](/img/bazmazon_1.png)
 <br>
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_1.png)
-<!-- ![Image description]("https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_1.png) -->
-<!-- <img src="https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_1.png" height="42" width="42"> -->
+
 
 ### Technologies Utilized
 
