@@ -14,65 +14,65 @@
 
 1. Customer Runs node bamazonCustomer.js App
 ![GitHub Logo](/img/bazmazon_1.png)
-<br>
+
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_1.png)
 <br>
 
 2. Customer Is Displayed Current Products And Inventory Availiable
 ![GitHub Logo](/img/bazmazon_2.png)
-<br>
+
 
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_2.png)
 <br>
 
 3. Customer Gets To Choose Product Selection By Entering Product ID
 ![GitHub Logo](/img/bazmazon_3.png)
-<br>
+
 
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_2.png)
 <br>
 
 4. Customer Runs node bamazonCustomer.js App
 ![GitHub Logo](/img/bazmazon_4.png)
-<br>
+
 
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_4.png)
 <br>
 
 5. Customer Runs node bamazonCustomer.js App
 ![GitHub Logo](/img/bazmazon_5.png)
-<br>
+
 
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_5.png)
 <br>
 
 6. Customer Runs node bamazonCustomer.js App
 ![GitHub Logo](/img/bazmazon_6.png)
-<br>
+
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_6.png)
 <br>
 
 7. Customer Runs node bamazonCustomer.js App
 ![GitHub Logo](/img/bazmazon_7.png)
-<br>
+
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_7.png)
 <br>
 
 8. Customer Runs node bamazonCustomer.js App
 ![GitHub Logo](/img/bazmazon_8.png)
-<br>
+
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_8.png)
 <br>
 
 9. Customer Runs node bamazonCustomer.js App
 ![GitHub Logo](/img/bazmazon_9.png)
-<br>
+
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_9.png)
 <br>
 
 10. Customer Runs node bamazonCustomer.js App
 ![GitHub Logo](/img/bazmazon_10.png)
-<br>
+
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_10.png)
 
 ### Technologies Utilized
