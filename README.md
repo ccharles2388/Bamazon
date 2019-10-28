@@ -10,6 +10,18 @@
 3. Build database from `schema.sql`
 4. At command prompt run `node bamazonCustomer.js`
 
+### Data Source Overview:
+1.  BAMAZON Main Folder Contains All Source Code
+2.  bamazonCustomer.js - node application 
+3.  schema.sql - database connection and configuration file
+4.  README.md - application instructions and detail file
+5.  package.json - local environment dependencies and application requirements
+6.  package-lock.json - global environment dependencies and application requirements
+7.  img folder - contains all images used for application including screen shot instructions
+8.  .gitignore - ignores node modules and other non dependent files from storing in         
+    repository 
+
+
 ### Screenshot of this Project
 
 1. Customer Runs node bamazonCustomer.js App
