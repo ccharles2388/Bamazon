@@ -1,7 +1,7 @@
 # Bamazon
-Bamazon Node Backend Store Simulation
+### Bamazon Node Backend Store Simulation
 
->An Amazon-like CLI storefront built with mySQL, NODE.js and Inquirer NPM. Output styled with Colors and console.table NPM's. The app can take in orders from customers, calculate sales price and deplete stock from the store's inventory. Schema.sql file have been included for database creation ranging in size from 10 to 100+ general related products.
+>An Amazon-like CLI storefront built with mySQL, NODE.js and Inquirer NPM. Output styled with Colors and console.table NPM's. The app can take in orders from customers, calculate sales price and deplete stock from the store's inventory. It has an automated inventory audit and alert system that will not allow the customer to order more than quantity availiable in stock.
 
 ### Deployment
 
@@ -12,7 +12,7 @@ Bamazon Node Backend Store Simulation
 
 ### Screenshot of this Project
 
-<!-- ![Bamazon CLI](https://raw.github.com/captnwalker/Bamazon/master/screenshot/screenshot.gif "Bamazon CLI") -->
+<img src="https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_1.png" height="42" width="42">
 
 ### Technologies Utilized
 
