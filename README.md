@@ -22,7 +22,7 @@
     repository 
 
 
-### Screenshot of this Project
+### BAMAZON Application Screenshots 
 
 1. Customer Runs node bamazonCustomer.js App
 ![GitHub Logo](/img/bazmazon_1.png)
