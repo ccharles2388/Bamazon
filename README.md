@@ -25,52 +25,52 @@ Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_2.png)
 <br>
 
-3. Customer Gets To Choose Product Selection By Entering Product ID
+3. Customer Gets To Choose Product Selection By Entering Item ID ( Example 2 Then Presses Enter)
 ![GitHub Logo](/img/bazmazon_3.png)
 
 
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_2.png)
 <br>
 
-4. Customer Runs node bamazonCustomer.js App
+4. Customer Is Then Displayed Another Prompt " How Many Would You Like To Buy " ( Example 1 )
 ![GitHub Logo](/img/bazmazon_4.png)
 
 
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_4.png)
 <br>
 
-5. Customer Runs node bamazonCustomer.js App
+5. Inventory Audit Runs And Displays To Customer If Item Can Be Purchased And If So Processes The Order
 ![GitHub Logo](/img/bazmazon_5.png)
 
 
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_5.png)
 <br>
 
-6. Customer Runs node bamazonCustomer.js App
+6. Customer Is Then Displayed An Updated Item Screen Of Availiable Inventory
 ![GitHub Logo](/img/bazmazon_6.png)
 
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_6.png)
 <br>
 
-7. Customer Runs node bamazonCustomer.js App
+7. Checking For OverOrdering Alert ( If Customer Trys To Order More Than Inventory )The App Is Redisplayed
 ![GitHub Logo](/img/bazmazon_7.png)
 
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_7.png)
 <br>
 
-8. Customer Runs node bamazonCustomer.js App
+8. Customer Selects Item And Now Enters An Order Of 300 Which Exceeds Inventory On Hand
 ![GitHub Logo](/img/bazmazon_8.png)
 
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_8.png)
 <br>
 
-9. Customer Runs node bamazonCustomer.js App
+9. Customer Is NOw Displayed An Insufficient Inventory Alert And Displays Actual Quantity Availiable, With A New Choice Of Making Another Selection Or Reducing The Order Quantity
 ![GitHub Logo](/img/bazmazon_9.png)
 
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_9.png)
 <br>
 
-10. Customer Runs node bamazonCustomer.js App
+10. Customer Can Finally Exit Program By Selecting Ctl-C Which Is Availiable Throughout Program 
 ![GitHub Logo](/img/bazmazon_10.png)
 
 Format: ![Direct Image Link]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_10.png)
