@@ -12,7 +12,9 @@
 
 ### Screenshot of this Project
 
-![Image description]("https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_1.png)
+![GitHub Logo](/img/bazmazon_1.png)
+Format: ![Alt Text]https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_1.png)
+<!-- ![Image description]("https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_1.png) -->
 <!-- <img src="https://github.com/ccharles2388/Bamazon/blob/master/img/bazmazon_1.png" height="42" width="42"> -->
 
 ### Technologies Utilized
